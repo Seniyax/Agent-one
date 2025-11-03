@@ -3,7 +3,7 @@ An **AI-powered multi-agent system** that helps users **analyze personal expense
 Built with **CrewAI**, **OpenAI API**, and **Streamlit**, this project demonstrates how multiple autonomous agents can collaborate to process data, derive insights, and generate natural language outputs.
 
 ## Features
-- **Multi-Agent Colloboration:** Three CrewAI agents (Finance Analyst & Report Generator) work together.
+- **Multi-Agent Colloboration:** Three CrewAI agents (Data Analyst, Report generator & summarizer tool) work together.
 - **Expense Summarization:** Reads and summarizes spending data from CSV files.
 - **Automated Report Generation:** Produces natural language financial summaries.
 

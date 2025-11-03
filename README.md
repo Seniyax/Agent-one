@@ -1,3 +1,5 @@
+
+https://github.com/user-attachments/assets/a04ef170-89ac-4b0f-ba50-54408766e733
 # Personal Finance Tracker Agent
 An **AI-powered multi-agent system** that helps users **analyze personal expenses**, **track spending habits**, and **generate financial summaries and reports** automatically.  
 Built with **CrewAI**, **OpenAI API**, and **Streamlit**, this project demonstrates how multiple autonomous agents can collaborate to process data, derive insights, and generate natural language outputs.
@@ -56,3 +58,8 @@ Agent-one/
 - Monthly trend analysis with charts.
 - Budget recommendation agent.
 - Multi-currency and localization support
+
+
+
+https://github.com/user-attachments/assets/91f9527b-4580-4a63-87c8-f7acf754e94d
+

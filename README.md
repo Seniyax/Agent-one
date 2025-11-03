@@ -18,6 +18,41 @@ Agent-one/
 │      ├── data_analyst.py
 │      ├── finance_advisor.py
 │      └── report_generator.py
-├──  tools/
-│         ├──
-│         └── 
+├──  services/
+│         ├── data_loader.py
+│         ├── report_tool.py
+│         └── summarizer_tool.py
+├── app.py
+├── crew.py
+├── test.py
+└── README
+````
+
+## How it works ?
+1. The user uploads an expense CSV file via the Streamlit UI.
+2. The Finance Analyst Agent reads the file and uses a tool to calculate total and category spending.
+3. The Report Generator Agent takes that output and produces a natural language report summarizing financial insights.
+4. The Streamlit UI displays both the structured summary and report interactively.
+
+## Tech stack
+- Python
+- CrewAI
+- OpenAI API
+- Pandas
+- Streamlit
+
+## Installation and Setup
+- Clone the repository
+  ````bash
+  git clone https://github.com/seniyax/Agent_one.git
+  cd personal-finance-agent
+  ````
+- Run the streamlit ui
+  ````bash
+  streamlit run ui/app.py
+  ````
+  
+## Future Enhancements
+- Monthly trend analysis with charts.
+- Budget recommendation agent.
+- Multi-currency and localization support
